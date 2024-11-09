@@ -1,0 +1,181 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+body{
+    /* background-color: black; */
+    /* color: white; */
+
+}
+
+
+
+.left{
+    width: 25vw;
+    padding: 10px;
+  
+}
+
+.right{
+    width: 75vw;
+}
+
+.home ul li{
+    width: 14px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color:rgb(50, 48, 48);
+}
+
+.heading{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 14px;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 12px;
+
+}
+.heading img{
+    width: 30px;
+}
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+    font-size: 12px;
+    color: grey;
+    border-top: 1px solid #444;
+    /* position: absolute; */
+
+}
+.right{
+    margin: 16px 0;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section p {
+    font-weight: bold;
+    color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section a {
+    color: grey;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+.library{
+    min-height: 50vh;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(83, 82, 82);
+}
+
+.header>*{
+    padding: 20px;
+   
+}
+.spotifyPlaylists{
+    padding: 16px;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+
+}
+.card>*{
+    padding-top: 10px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.play{
+    width: 60px; /* Set container width */
+    height: 60px; /* Set container height */
+    border-radius: 50%; /* Make it circular */
+    background-color:#1fdf64; /* Background color for the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 168px;
+    right: 17px;
+    /* opacity: 0;
+    transition: all 1s ease-out; */
+  }
+
+  .play svg{
+    width: 50%; /* Adjust SVG size relative to the container */
+    height: 50%;
+    fill: white; /* SVG color */
+  }
+  .card .play svg{
+    fill: black;
+  }
